@@ -1,0 +1,60 @@
+<!-- vim: set noexpandtab tw=0 : -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet"
+	      type="text/css"
+	      href="default.css" />
+	<meta http-equiv="Content-Type"
+	      content="application/xhtml+xml; charset=utf-8" />
+	<title>shadow - Welcome</title>
+</head>
+<body>
+	<? include "header.php.en"; ?>
+
+	<div id="content">
+		<div class="item">
+			<h2>Welcome!</h2>
+			<p>This is the shadow tool suite home page.</p>
+		</div>
+		<div class="item">
+			<h2>2007-12-10 - New release: 4.1.0</h2>
+			<p>A new version of shadow was released.  It contains
+			patches gathered from various distributions, the
+			documentation of the login.defs variables, support for
+			SHA password encryption methods, and lots of bug
+			fixes.</p>
+			<p>The manpages are now generated depending on the
+			configuration. It is recommended to re-generate them if
+			you change some configure options.</p>
+		</div>
+		<div class="item">
+			<h2>2007-10-28 - New release: 4.0.18.2</h2>
+			<p>A new version of shadow was released.  It contains
+			changes accumulated from the previous repository and
+			small recent changes.</p>
+			<p>The packaging should not have change too much.
+			Tell us if there are some packaging issues.</p>
+		</div>
+		<div class="item">
+			<h2>2007-10-07 - New repository layout for upstream development</h2>
+			<p>Upstream development of the shadow tool suite used
+			to be hosted by the <a href="http://www.pld-linux.org/">PLD project</a>.</p>
+			<p>It will now be hosted on Alioth.</p>
+			<p>The pkg-shadow repository was reorganized to separate <a href="http://svn.debian.org/wsvn/pkg-shadow/upstream/">upstream maintenance</a> from the <a href="http://svn.debian.org/wsvn/pkg-shadow/debian/">Debian package mainenance</a>.</p>
+			<p>The shadow <a href="http://svn.debian.org/wsvn/pkg-shadow/upstream/tags/">history</a> was imported using
+			<a href="ftp://pkg-shadow.alioth.debian.org/pub/pkg-shadow/old">old archives</a> and the <a href="ftp://pkg-shadow.alioth.debian.org/pub/pkg-shadow/old/shadow-4.0.18.1+last_pld_cvs.tar.bz2">last known snapshot of CVS repository on PLD</a>.</p>
+		</div>
+		<div class="item">
+			<h2>Project links</h2>
+			<p>The <a href="http://alioth.debian.org/projects/pkg-shadow/">shadow project</a>
+			is hosted on
+			<a href="http://alioth.debian.org">Alioth</a>.</p>
+		</div>
+	</div>
+
+	<? include "footer_index.php"; ?>
+	<? include "footer.php"; ?>
+</body>
+</html>

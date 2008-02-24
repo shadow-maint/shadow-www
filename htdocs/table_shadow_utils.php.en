@@ -1,0 +1,37 @@
+<table>
+<tr><td>chage (1)</td><td>change user password expiry information</td></tr>
+<tr><td>chfn (1)</td><td>change real user name and information</td></tr>
+<tr><td>chsh (1)</td><td>change login shell</td></tr>
+<tr><td>expiry (1)</td><td>check and enforce password expiration policy</td></tr>
+<tr><td>gpasswd (1)</td><td>administer the /etc/group file</td></tr>
+<tr><td>login (1)</td><td>begin session on the system</td></tr>
+<tr><td>newgrp (1)</td><td>log in to a new group</td></tr>
+<tr><td>passwd (1)</td><td>change user password</td></tr>
+<tr><td>sg (1)</td><td>execute command as different group ID</td></tr>
+<tr><td>su (1)</td><td>change user ID or become superuser</td></tr>
+<tr><td>faillog (5)</td><td>login failure logging file</td></tr>
+<tr><td>gshadow (5)</td><td>shadowed group file</td></tr>
+<tr><td>login.defs (5)</td><td>shadow password suite configuration</td></tr>
+<tr><td>passwd (5)</td><td>the password file</td></tr>
+<tr><td>shadow (5)</td><td>encrypted password file</td></tr>
+<tr><td>chgpasswd (8)</td><td>update group passwords in batch mode</td></tr>
+<tr><td>chpasswd (8)</td><td>update passwords in batch mode</td></tr>
+<tr><td>faillog (8)</td><td>display faillog records or set login failure limits</td></tr>
+<tr><td>groupadd (8)</td><td>create a new group</td></tr>
+<tr><td>groupdel (8)</td><td>delete a group</td></tr>
+<tr><td>groupmod (8)</td><td>modify a group definition on the system</td></tr>
+<tr><td>grpck (8)</td><td>verify integrity of group files</td></tr>
+<tr><td>grpconv (8)</td><td>convert to and from shadow passwords and groups</td></tr>
+<tr><td>grpunconv (8)</td><td>convert to and from shadow passwords and groups</td></tr>
+<tr><td>lastlog (8)</td><td>reports the most recent login of all users or of a given user</td></tr>
+<tr><td>newusers (8)</td><td>update and create new users in batch</td></tr>
+<tr><td>nologin (8)</td><td>politely refuse a login</td></tr>
+<tr><td>pwck (8)</td><td>verify integrity of password files</td></tr>
+<tr><td>pwconv (8)</td><td>convert to and from shadow passwords and groups</td></tr>
+<tr><td>pwunconv (8)</td><td>convert to and from shadow passwords and groups</td></tr>
+<tr><td>useradd (8)</td><td>create a new user or update default new user information</td></tr>
+<tr><td>userdel (8)</td><td>delete a user account and related files</td></tr>
+<tr><td>usermod (8)</td><td>modify a user account</td></tr>
+<tr><td>vigr (8)</td><td>edit the password, group, shadow-password or shadow-group file</td></tr>
+<tr><td>vipw (8)</td><td>edit the password, group, shadow-password or shadow-group file</td></tr>
+</table>

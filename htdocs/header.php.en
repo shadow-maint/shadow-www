@@ -1,0 +1,13 @@
+<!-- begin header.php -->
+	<div class="bg"><div class="header">
+		<h1>shadow<sup>v<? include "version.php"; ?></sup></h1>
+	</div></div>
+
+	<div id="nav">
+		<a href="."                 title="Welcome"      >Welcome<span>&nbsp;&nbsp;&lt;</span></a>
+		<a href="features.php"      title="Features"     >Features<span>&nbsp;&nbsp;&lt;</span></a>
+		<a href="download.php"      title="Download"     >Download<span>&nbsp;&nbsp;&lt;</span></a>
+		<a href="getinvolved.php"   title="Get Involved" >Get Involved<span>&nbsp;&nbsp;&lt;</span></a>
+		<a href="translations.php"  title="Translations" >Translations<span>&nbsp;&nbsp;&lt;</span></a>
+	</div>
+<!-- end header.php -->
