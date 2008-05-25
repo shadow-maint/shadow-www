@@ -132,11 +132,11 @@ do
 done
 
 echo Uploading...
-scp -pr htdocs/*.* pkg-shadow.alioth.debian.org:/var/lib/gforge/chroot/home/groups/pkg-shadow/htdocs/test
-scp -pr htdocs/.htaccess pkg-shadow.alioth.debian.org:/var/lib/gforge/chroot/home/groups/pkg-shadow/htdocs/test
-scp -pr htdocs.gen/*.* pkg-shadow.alioth.debian.org:/var/lib/gforge/chroot/home/groups/pkg-shadow/htdocs/test
-scp -pr coverage pkg-shadow.alioth.debian.org:/var/lib/gforge/chroot/home/groups/pkg-shadow/htdocs/test/coverage
-ssh pkg-shadow.alioth.debian.org chgrp -R pkg-shadow /var/lib/gforge/chroot/home/groups/pkg-shadow/htdocs/test
-ssh pkg-shadow.alioth.debian.org chmod -R g+rw /var/lib/gforge/chroot/home/groups/pkg-shadow/htdocs/test
+scp -pr htdocs/*.* pkg-shadow.alioth.debian.org:/var/lib/gforge/chroot/home/groups/pkg-shadow/htdocs
+scp -pr htdocs/.htaccess pkg-shadow.alioth.debian.org:/var/lib/gforge/chroot/home/groups/pkg-shadow/htdocs
+scp -pr htdocs.gen/*.* pkg-shadow.alioth.debian.org:/var/lib/gforge/chroot/home/groups/pkg-shadow/htdocs
+scp -pr coverage/* pkg-shadow.alioth.debian.org:/var/lib/gforge/chroot/home/groups/pkg-shadow/htdocs/coverage
+ssh pkg-shadow.alioth.debian.org chgrp -R pkg-shadow /var/lib/gforge/chroot/home/groups/pkg-shadow/htdocs
+ssh pkg-shadow.alioth.debian.org chmod -R g+rw /var/lib/gforge/chroot/home/groups/pkg-shadow/htdocs
 echo done
 
