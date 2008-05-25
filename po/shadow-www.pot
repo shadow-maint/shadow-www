@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2008-02-24 22:38+0100\n"
+"POT-Creation-Date: 2008-05-25 14:53+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,11 +32,64 @@ msgstr ""
 
 # type: Content of: <html><body><div><div><h2>
 #: htdocs/index.php.en:22
-msgid "2007-12-10 - New release: 4.1.0"
+msgid "2008-05-25 - New release: 4.1.2"
 msgstr ""
 
 # type: Content of: <html><body><div><div><p>
 #: htdocs/index.php.en:23
+msgid ""
+"A new version of shadow was released. You can find a comprehensive list of "
+"changes on <a "
+"href=\"ftp://pkg-shadow.alioth.debian.org/pub/pkg-shadow/shadow-4.1.2.NEWS\">shadow-4.1.2.NEWS</a>."
+msgstr ""
+
+# type: Content of: <html><body><div><div><h2>
+#: htdocs/index.php.en:26
+msgid "2008-04-02 - New release: 4.1.1"
+msgstr ""
+
+# type: Content of: <html><body><div><div><p>
+#: htdocs/index.php.en:27
+msgid ""
+"A new version of shadow was released. It contains a lot of fixes for bugs "
+"found with the <a "
+"href=\"http://svn.debian.org/viewsvn/pkg-shadow/debian/trunk/tests/\">testsuite</a>."
+msgstr ""
+
+# type: Content of: <html><body><div><div><h2>
+#: htdocs/index.php.en:31
+msgid "2008-03-09 - The website is translated!"
+msgstr ""
+
+# type: Content of: <html><body><div><div><p>
+#: htdocs/index.php.en:32
+msgid ""
+"An internationalization infrastructure was setup for the website using <a "
+"href=\"http://po4a.alioth.debian.org\">po4a</a>."
+msgstr ""
+
+# type: Content of: <html><body><div><div><p>
+#: htdocs/index.php.en:33
+msgid ""
+"The website is now translated in French, and you can jump back to the "
+"English version using the links at the bottom of every pages."
+msgstr ""
+
+# type: Content of: <html><body><div><div><p>
+#: htdocs/index.php.en:34
+msgid ""
+"The <a href=\"coverage\">coverage</a> of the <a "
+"href=\"http://svn.debian.org/viewsvn/pkg-shadow/debian/trunk/tests/\">testsuite</a> "
+"was also added to the website."
+msgstr ""
+
+# type: Content of: <html><body><div><div><h2>
+#: htdocs/index.php.en:37
+msgid "2007-12-10 - New release: 4.1.0"
+msgstr ""
+
+# type: Content of: <html><body><div><div><p>
+#: htdocs/index.php.en:38
 msgid ""
 "A new version of shadow was released.  It contains patches gathered from "
 "various distributions, the documentation of the login.defs variables, "
@@ -44,50 +97,50 @@ msgid ""
 msgstr ""
 
 # type: Content of: <html><body><div><div><p>
-#: htdocs/index.php.en:28
+#: htdocs/index.php.en:43
 msgid ""
 "The manpages are now generated depending on the configuration. It is "
 "recommended to re-generate them if you change some configure options."
 msgstr ""
 
 # type: Content of: <html><body><div><div><h2>
-#: htdocs/index.php.en:33
+#: htdocs/index.php.en:48
 msgid "2007-10-28 - New release: 4.0.18.2"
 msgstr ""
 
 # type: Content of: <html><body><div><div><p>
-#: htdocs/index.php.en:34
+#: htdocs/index.php.en:49
 msgid ""
 "A new version of shadow was released.  It contains changes accumulated from "
 "the previous repository and small recent changes."
 msgstr ""
 
 # type: Content of: <html><body><div><div><p>
-#: htdocs/index.php.en:37
+#: htdocs/index.php.en:52
 msgid ""
 "The packaging should not have change too much.  Tell us if there are some "
 "packaging issues."
 msgstr ""
 
 # type: Content of: <html><body><div><div><h2>
-#: htdocs/index.php.en:41
+#: htdocs/index.php.en:56
 msgid "2007-10-07 - New repository layout for upstream development"
 msgstr ""
 
 # type: Content of: <html><body><div><div><p>
-#: htdocs/index.php.en:42
+#: htdocs/index.php.en:57
 msgid ""
 "Upstream development of the shadow tool suite used to be hosted by the <a "
 "href=\"http://www.pld-linux.org/\">PLD project</a>."
 msgstr ""
 
 # type: Content of: <html><body><div><div><p>
-#: htdocs/index.php.en:44
+#: htdocs/index.php.en:59
 msgid "It will now be hosted on Alioth."
 msgstr ""
 
 # type: Content of: <html><body><div><div><p>
-#: htdocs/index.php.en:45
+#: htdocs/index.php.en:60
 msgid ""
 "The pkg-shadow repository was reorganized to separate <a "
 "href=\"http://svn.debian.org/wsvn/pkg-shadow/upstream/\">upstream "
@@ -97,7 +150,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <html><body><div><div><p>
-#: htdocs/index.php.en:46
+#: htdocs/index.php.en:61
 msgid ""
 "The shadow <a "
 "href=\"http://svn.debian.org/wsvn/pkg-shadow/upstream/tags/\">history</a> "
@@ -109,12 +162,12 @@ msgid ""
 msgstr ""
 
 # type: Content of: <html><body><div><div><h2>
-#: htdocs/index.php.en:50
+#: htdocs/index.php.en:65
 msgid "Project links"
 msgstr ""
 
 # type: Content of: <html><body><div><div><p>
-#: htdocs/index.php.en:51
+#: htdocs/index.php.en:66
 msgid ""
 "The <a href=\"http://alioth.debian.org/projects/pkg-shadow/\">shadow "
 "project</a> is hosted on <a href=\"http://alioth.debian.org\">Alioth</a>."
@@ -664,6 +717,11 @@ msgstr ""
 # type: Content of: <div><div><h1><sup>
 #: htdocs/header.php.en:3
 msgid "shadow<sup>v"
+msgstr ""
+
+# type: Content of: <div><div><h1>
+#: htdocs/header.php.en:3
+msgid "</sup>"
 msgstr ""
 
 # type: Content of: <div><a>

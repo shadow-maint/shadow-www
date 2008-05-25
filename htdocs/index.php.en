@@ -19,6 +19,21 @@
 			<p>This is the shadow tool suite home page.</p>
 		</div>
 		<div class="item">
+			<h2>2008-05-25 - New release: 4.1.2</h2>
+			<p>A new version of shadow was released. You can find a comprehensive list of changes on <a href="ftp://pkg-shadow.alioth.debian.org/pub/pkg-shadow/shadow-4.1.2.NEWS">shadow-4.1.2.NEWS</a>.</p>
+		</div>
+		<div class="item">
+			<h2>2008-04-02 - New release: 4.1.1</h2>
+			<p>A new version of shadow was released. It contains
+			a lot of fixes for bugs found with the <a href="http://svn.debian.org/viewsvn/pkg-shadow/debian/trunk/tests/">testsuite</a>.</p>
+		</div>
+		<div class="item">
+			<h2>2008-03-09 - The website is translated!</h2>
+			<p>An internationalization infrastructure was setup for the website using <a href="http://po4a.alioth.debian.org">po4a</a>.</p>
+			<p>The website is now translated in French, and you can jump back to the English version using the links at the bottom of every pages.</p>
+			<p>The <a href="coverage">coverage</a> of the <a href="http://svn.debian.org/viewsvn/pkg-shadow/debian/trunk/tests/">testsuite</a> was also added to the website.</p>
+		</div>
+		<div class="item">
 			<h2>2007-12-10 - New release: 4.1.0</h2>
 			<p>A new version of shadow was released.  It contains
 			patches gathered from various distributions, the
