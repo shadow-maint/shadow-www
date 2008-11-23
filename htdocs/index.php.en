@@ -19,6 +19,11 @@
 			<p>This is the shadow tool suite home page.</p>
 		</div>
 		<div class="item">
+			<h2>2008-06-26 - New release: 4.1.2.1</h2>
+			<p>A new version of shadow was released. It fixes an "audit log injection" vulnerability in login, when configured with audit support.</p>
+			<p>You can find a comprehensive list of changes on <a href="ftp://pkg-shadow.alioth.debian.org/pub/pkg-shadow/shadow-4.1.2.1.NEWS">shadow-4.1.2.1.NEWS</a>.</p>
+		</div>
+		<div class="item">
 			<h2>2008-05-25 - New release: 4.1.2</h2>
 			<p>A new version of shadow was released. You can find a comprehensive list of changes on <a href="ftp://pkg-shadow.alioth.debian.org/pub/pkg-shadow/shadow-4.1.2.NEWS">shadow-4.1.2.NEWS</a>.</p>
 		</div>
