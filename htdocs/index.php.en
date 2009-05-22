@@ -19,6 +19,30 @@
 			<p>This is the shadow tool suite home page.</p>
 		</div>
 		<div class="item">
+			<h2>2009-05-22 - New release: 4.1.4.1</h2>
+			<p>This is a minor release with bug fixes and some
+			small new features. See
+			<a href="ftp://pkg-shadow.alioth.debian.org/pub/pkg-shadow/shadow-4.1.4.1.NEWS">shadow-4.1.4.1.NEWS</a>
+			for more details.</p>
+		</div>
+		<div class="item">
+			<h2>2009-05-11 - New release: 4.1.4</h2>
+			<p>This release adds PAM support to the chpasswd and
+			newusers tools. It also contains bug fixes or smaller
+			features that are described in <a href="ftp://pkg-shadow.alioth.debian.org/pub/pkg-shadow/shadow-4.1.4.NEWS">shadow-4.1.4.NEWS</a>.</p>
+		</div>
+		<div class="item">
+			<h2>2009-04-15 - New release: 4.1.3.1</h2>
+			<p>This release fixes a bug which caused wrong
+			permission to be set on the terminals used after login.
+			Only 4.1.3 was affected.</p>
+			<p>It also fixes some bugs on the SE Linux support.</p>
+		</div>
+		<div class="item">
+			<h2>2009-04-12 - New release: 4.1.3</h2>
+			<p>Another version of shadow was released. You can find a comprehensive list of changes on <a href="ftp://pkg-shadow.alioth.debian.org/pub/pkg-shadow/shadow-4.1.3.NEWS">shadow-4.1.3.NEWS</a>.</p>
+		</div>
+		<div class="item">
 			<h2>2008-11-23 - New release: 4.1.2.2</h2>
 			<p>A new version of shadow was released. It fixes a
 			"race condition" vulnerability in login, which could
