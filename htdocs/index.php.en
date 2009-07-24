@@ -19,6 +19,12 @@
 			<p>This is the shadow tool suite home page.</p>
 		</div>
 		<div class="item">
+			<h2>2009-07-24 - New release: 4.1.4.2</h2>
+			<p>A new minor version was released. See
+			<a href="ftp://pkg-shadow.alioth.debian.org/pub/pkg-shadow/shadow-4.1.4.2.NEWS">shadow-4.1.4.2.NEWS</a>
+			for more details.</p>
+		</div>
+		<div class="item">
 			<h2>2009-05-22 - New release: 4.1.4.1</h2>
 			<p>This is a minor release with bug fixes and some
 			small new features. See
