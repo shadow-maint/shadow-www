@@ -36,10 +36,10 @@
 		</div>
 		<div class="item">
 			<h2>Testsuite</h2>
-			<p>You can also contribute to the <a href="http://svn.debian.org/viewsvn/pkg-shadow/debian/trunk/tests/">test
+			<p>You can also contribute to the <a href="http://anonscm.debian.org/viewvc/pkg-shadow/debian/trunk/tests/">test
 			suite</a> and improve the <a href="coverage">coverage</a>
 			of these tests.</p>
-			<p>The testsuite is currently executed on a Debain
+			<p>The testsuite is currently executed on a Debian
 			environment. You can help testing it on another
 			environment.</p>
 		</div>

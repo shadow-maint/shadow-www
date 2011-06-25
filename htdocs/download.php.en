@@ -17,7 +17,7 @@
 		<div class="item">
 			<h2>Sources</h2>
 			<p>You can find the sources of the latest release on
-			<a href="ftp://pkg-shadow.alioth.debian.org/pub/pkg-shadow">Alioth</a>.</p>
+			<a href="releases">Alioth</a>.</p>
 			<p>The archives are signed by one of these gpg keys:
 				<ul>
 					<li><a href="http://pgp.cs.uu.nl/stats/EA7CF5AD.html">96F7 A8CC A87F 0EB8 3497  01B2 5A0A 399A EA7C F5AD</a></li>
@@ -34,8 +34,8 @@
 		</div>
 		<div class="item">
 			<h2>SVN</h2>
-			<p>The latest sources are available from our <a href="svn://svn.debian.org/pkg-shadow/">SVN repository</a>.</p>
-			<p>You can browse the source on the web with <a href="http://svn.debian.org/wsvn/pkg-shadow">WebSVN</a> or <a href="http://svn.debian.org/viewsvn/pkg-shadow/">ViewSVN</a>.</p>
+			<p>The latest sources are available from our <a href="svn://anonscm.debian.org/pkg-shadow/">SVN repository</a>.</p>
+			<p>You can browse the source on the web with <a href="http://anonscm.debian.org/viewvc/pkg-shadow/">ViewVC</a>.</p>
 		</div>
 	</div>
 
