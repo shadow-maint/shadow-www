@@ -93,6 +93,9 @@ get_language() {
 		po)
 			echo -n "polski"
 			;;
+		de)
+			echo -n "Deutsch"
+			;;
 		*)
 			echo "Language '$1' not supported" >&2
 			exit 1
