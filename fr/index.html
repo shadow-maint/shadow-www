@@ -1,0 +1,139 @@
+
+<!-- vim: set noexpandtab tw=0 : -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet"
+	      type="text/css"
+	      href="default.css" />
+	<meta http-equiv="Content-Type"
+	      content="application/xhtml+xml; charset=utf-8" />
+	<title>shadow - Bienvenu</title>
+</head>
+<body>
+	<? include "header.php.fr"; ?>
+
+	<div id="content">
+		<div class="item">
+			<h2>Bienvenu !</h2>
+			<p>Vous êtes sur la page d'accueil de la suite d'outils shadow.</p>
+		</div>
+		<div class="item">
+			<h2>2009-07-24 - Nouvelle version : 4.1.4.2</h2>
+			<p>Une version mineure est sortie. Consultez <a
+href="releases/shadow-4.1.4.1.NEWS">shadow-4.1.4.1.NEWS</a> pour plus de
+détails.</p>
+		</div>
+		<div class="item">
+			<h2>2009-05-22 - Nouvelle version : 4.1.4.1</h2>
+			<p>Il s'agit d'une version mineure, avec des corrections et quelques petites
+nouvelles fonctionnalités. Consultez <a
+href="releases/shadow-4.1.4.1.NEWS">shadow-4.1.4.1.NEWS</a> pour plus de
+détails.</p>
+		</div>
+		<div class="item">
+			<h2>2009-05-11 - Nouvelle version : 4.1.4</h2>
+			<p>Cette version ajoute la prise en charge de PAM aux outils chpasswd et
+newusers. Elle contient également des correctif et des fonctionnalités moins
+importantes qui sont décrites dans <a
+href="releases/shadow-4.1.4.NEWS">shadow-4.1.4.NEWS</a>.</p>
+		</div>
+		<div class="item">
+			<h2>2009-04-12 - Nouvelle version : 4.1.3.1</h2>
+			<p>Cette version corrige un bogue ayant pour conséquence l'application des
+mauvaises permissions pour les terminaux après une connexion avec login. Il
+n'affectait que la version 4.1.3.</p>
+			<p>Elle corrige également des bogues dans la prise en charge de SE Linux.</p>
+		</div>
+		<div class="item">
+			<h2>2009-04-12 - Nouvelle version : 4.1.3</h2>
+			<p>Une autre version de shadow est sortie. Vous trouverez un résumé des
+modifications sur <a
+href="releases/shadow-4.1.3.NEWS">shadow-4.1.3.NEWS</a>.</p>
+		</div>
+		<div class="item">
+			<h2>2008-11-23 - Nouvelle version : 4.1.2.2</h2>
+			<p>Une nouvelle version de shadow est sortie. Elle corrige une vulnérabilité de
+type « race condition » dans login, et qui pourrait permettre de devenir
+propriétaire ou de changer le mode de fichiers ; elle corrige également un
+une possibilité de dénis de service pour login quand un attaquant peut
+injecter des entrées dans utmp.</p>
+			<p>Vous trouverez un résumé des modifications sur <a
+href="releases/shadow-4.1.2.2.NEWS">shadow-4.1.2.2.NEWS</a>.</p>
+		</div>
+		<div class="item">
+			<h2>2008-06-26 - Nouvelle version : 4.1.2.1</h2>
+			<p>Une nouvelle version de shadow est sortie. Elle corrige une vulnérabilité de
+type « injection de log d'audit » dans login, quand il est configuré avec la
+prise en charge des messages d'audit.</p>
+			<p>Vous trouverez un résumé des modifications sur <a
+href="releases/shadow-4.1.2.1.NEWS">shadow-4.1.2.1.NEWS</a>.</p>
+		</div>
+		<div class="item">
+			<h2>2008-05-25 - Nouvelle version : 4.1.2</h2>
+			<p>Une nouvelle version de shadow est sortie. Vous trouverez un résumé des
+modifications sur <a
+href="releases/shadow-4.1.2.NEWS">shadow-4.1.2.NEWS</a>.</p>
+		</div>
+		<div class="item">
+			<h2>2008-04-02 - Nouvelle version : 4.1.1</h2>
+			<p>Une nouvelle version de shadow est sortie. Elle contient de nombreuses
+corrections de bogues trouvés à l'aide de la <a
+href="http://anonscm.debian.org/viewvc/pkg-shadow/debian/trunk/tests/">suite
+de tests</a>.</p>
+		</div>
+		<div class="item">
+			<h2>2008-03-09 - Le site web est traduit !</h2>
+			<p>Une infrastructure pour l'internationalisation du site we a été mise en
+place en utilisant <a href="http://po4a.alioth.debian.org">po4a</a>.</p>
+			<p>Le site web est maintenant traduit en français et vous pouvez revenir à la
+version anglaise en utilisant les liens en bas de toute les pages.</p>
+			<p>La <a href="coverage">couverture</a> des tests de la <a
+href="http://anonscm.debian.org/viewvc/pkg-shadow/debian/trunk/tests/">suite
+de tests</a> a également été ajoutée au site web.</p>
+		</div>
+		<div class="item">
+			<h2>2007-12-10 - Nouvelle version : 4.1.0</h2>
+			<p>Une nouvelle version de shadow est sortie. Elle contient des patches
+provenant de différentes distributions, la documentation des variables de
+login.defs, la gestion des méthodes de chiffrement SHA pour les mots de
+passe et de nombreuses corrections de bogues.</p>
+			<p>Les pages de manuel sont désormais générées en fonction de la
+configuration. Il est recommendé de les re-générer si vous changer les
+options de configuration.</p>
+		</div>
+		<div class="item">
+			<h2>2007-10-28 - Nouvelle version : 4.0.18.2</h2>
+			<p>Une nouvelle version de shadow est sortie. Elle contient des changements
+accumulés dans le repository précédent et de petites modification récentes.</p>
+			<p>Le packaging n'a pas du trop changer. Indiquez-nous si vous trouvez des
+problèmes.</p>
+		</div>
+		<div class="item">
+			<h2>2007-10-07 - Nouvelle organisation du repository pour le développement amont</h2>
+			<p>Le développement amont de la suite d'outils shadow était géré par le <a
+href="http://www.pld-linux.org/">projet PLD</a>.</p>
+			<p>Il se trouve maintenant sur Alioth.</p>
+			<p>Le repository pkg-shadow a été réorganisé pour séparer la <a
+href="http://anonscm.debian.org/viewvc/pkg-shadow/upstream/">maintenance
+amont</a> de la <a
+href="http://anonscm.debian.org/viewvc/pkg-shadow/debian/">maintenance du
+paquet Debian</a>.</p>
+			<p>L'<a
+href="http://anonscm.debian.org/viewvc/pkg-shadow/upstream/tags/">historique</a>
+de shadow a été importé en utilisant les <a href="releases/old">anciennes
+archives</a> et la <a
+href="releases/old/shadow-4.0.18.1+last_pld_cvs.tar.bz2">dernière version
+connue du dépot CVS de PLD</a>.</p>
+		</div>
+		<div class="item">
+			<h2>Liens du projet</h2>
+			<p>Le <a href="http://alioth.debian.org/projects/pkg-shadow/">projet shadow</a>
+est hébergé sur <a href="http://alioth.debian.org">Alioth</a>.</p>
+		</div>
+	</div>
+
+	<? include "footer_index.php"; ?> <? include "footer.php"; ?>
+</body>
+</html>
